@@ -1,0 +1,47 @@
+body {
+    background-color: #dbf6e9;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    width: 100vw;
+}
+
+.cards-div {
+    background-color:#9ddfd3;
+    border: solid;
+    border-color: #9ddfd3;
+    border-width: .1rem;
+    margin: 3rem 2rem 2rem 2rem;
+    flex-basis: 20rem;
+    box-shadow: .3rem .3rem  #2b2e4a;
+}
+
+.head{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    color: #9ddfd3;
+}
+dt{
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    font-size: 3rem;
+}
+
+dd{
+    text-align: center;
+    padding: 0 1rem .5rem 1rem;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+    flex-basis: 100vw;
+    color: #2b2e4a
+}
